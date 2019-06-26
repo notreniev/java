@@ -3,19 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cursojava;
+package exemplos.java.tipos;
 
 /**
  *
  * @author everton
  */
-public class Exercicio001 {
-
-    /**
-     * @param args the command line arguments
-     */
+public class TiposPrimitivos {
     public static void main(String[] args) {
-        System.out.println("");
+        String nome = "Everton";
+        float nota = 8.5f;
+        System.out.printf("A nota de %s é %.1f \n", nome, nota);
     }
-    
 }

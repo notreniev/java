@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package cursojava;
-
-import java.util.Date;
+package exemplos.java;
 
 /**
  *
  * @author everton
  */
-public class HoraDoSistema {
+public class OlaMundo {
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        Date relogio = new Date();
-        System.out.println("A hora do sistema é: ");
-        System.out.println(relogio.toString());
+        System.out.println("Olá, Mundo!");
     }
+    
 }
